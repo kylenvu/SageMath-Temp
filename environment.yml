@@ -2,5 +2,5 @@ name: notebooksenv
 channels:
 - conda-forge
 dependencies:
-- python
-- pip
+- python=3.6
+- pip=19.*

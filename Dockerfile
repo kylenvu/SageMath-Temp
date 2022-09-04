@@ -1,7 +1,6 @@
 FROM openjdk:18.0.2.1-jdk
 
-RUN sudo apt-get update
-RUN sudo apt-get install -y python3-pip
+RUN python3 -m pip install --no-cache-dir notebook jupyterlab
 
 # add requirements.txt, written this way to gracefully ignore a missing file
 COPY . .

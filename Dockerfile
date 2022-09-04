@@ -3,8 +3,8 @@ FROM openjdk:18.0.2.1-jdk
 # add requirements.txt, written this way to gracefully ignore a missing file
 COPY . .
 RUN ([ -f requirements.txt ] \
-    && pip3 install --no-cache-dir -r requirements.txt) \
-        || pip3 install --no-cache-dir jupyter jupyterlab
+    && pip install --no-cache-dir -r requirements.txt) \
+        || pip install --no-cache-dir jupyter jupyterlab
 
 USER root
 

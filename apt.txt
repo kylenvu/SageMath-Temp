@@ -1,2 +1,2 @@
-openjdk-18-jre-headless
+openjdk-18-jre
 python3-pip

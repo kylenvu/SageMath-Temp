@@ -1,7 +1,7 @@
 FROM openjdk:18.0.2.1-jdk
 
-RUN apt-get update
-RUN apt-get install -y python3-pip
+# RUN apt-get update
+# RUN apt-get install -y python3-pip
 
 # add requirements.txt, written this way to gracefully ignore a missing file
 # COPY . .

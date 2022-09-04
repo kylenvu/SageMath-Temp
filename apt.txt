@@ -1,2 +1,2 @@
-openjdk:18.0.2.1-jdk
+openjdk-18.0.2.1-jdk
 python3-pip
